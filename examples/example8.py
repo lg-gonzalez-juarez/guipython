@@ -50,6 +50,10 @@ class Window(QMainWindow):
   
         # setting value of spin box to the label
         self.label.setText("Value : " + str(value))
+        
+        
+
+        return value
   
   
 # create pyqt5 app
